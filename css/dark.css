@@ -1,0 +1,191 @@
+#modo {
+    width: 5px;
+    font-size: 30px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.dark {
+    background: rgb(4, 24, 27);
+}
+
+.dark #modo {
+    color: rgb(0, 255, 17);
+}
+
+#modo i {
+    transition: transform 0.4s ease;
+}
+
+#modo .fa-toggle-on {
+    transform: translateX(30%);
+}
+
+#modo .fa-toggle-off {
+    transform: translateX(0);
+}
+
+.dark h1 {
+    color: white;
+}
+
+.dark table {
+    color: rgb(255, 255, 255);
+}
+
+/* Estilos para tabla en modo oscuro */
+.dark .table-hover tbody tr:hover td {
+    color: rgb(255, 255, 255);
+    /* Cambia el color del texto a blanco cuando se pasa el cursor en modo oscuro */
+    background-color: rgba(18, 52, 225, 0.493);
+    /* Cambia el color de fondo cuando se pasa el cursor en modo oscuro */
+}
+
+/* Estilos para formularios en modo oscuro */
+.dark .form-group {
+    color: white;
+    /* Cambia el color del texto a blanco en modo oscuro */
+}
+
+/* Estilos para campos en modo oscuro */
+.dark .form-group label,
+.dark .form-group select,
+.dark .form-group input[type="text"],
+.dark .form-group textarea {
+    color: white;
+    /* Cambia el color del texto a blanco en modo oscuro */
+}
+
+.dark .form-group input[type="text"]::placeholder,
+.dark .form-group textarea::placeholder,
+.dark .form-group select::placeholder {
+    color: white;
+    /* Cambia el color del placeholder a blanco en modo oscuro */
+}
+
+.dark .form-group input[type="text"],
+.dark .form-group textarea,
+.dark .form-group select {
+    background-color: rgba(0, 0, 0, 0.3);
+    /* Cambia el color de fondo a oscuro con un poco de transparencia */
+}
+
+
+/* Estilos para el calendario */
+
+.dark #calendar {
+    color: #ffffff;
+}
+
+.dark .fc-toolbar.fc-header-toolbar {
+    color: #ffffff;
+}
+
+.fc-button {
+    color: #000000;
+}
+
+.fc-button:hover {
+    color: #ea0505;
+}
+
+.dark .fc-today {
+    color: rgb(0, 0, 0);
+}
+
+.dark .fc-day-header {
+    color: white;
+}
+
+.dark .modal-content {
+    background-color: black;
+    color: white;
+}
+
+.dark .card {
+    background-color: black;
+    color: white;
+}
+
+.dark .text-center {
+    color: white;
+}
+
+/* Colores Botones Pag Principal */
+.dark .btn-outline-primary {
+    color: white; /* Cambia el color del texto a blanco */
+    border-color: rgb(16, 13, 218); /* Cambia el color del borde a blanco */
+}
+
+.dark .btn-outline-primary:hover {
+    color: black; /* Cambia el color del texto a negro al pasar el mouse */
+    background-color: rgb(15, 105, 240); /* Cambia el fondo a blanco al pasar el mouse */
+}
+
+
+/* Estilo en Codigo QR*/
+.dark .list-group-item {
+    background-color: rgb(4, 24, 27); /* Fondo negro */
+    color: white; /* Letras blancas */
+    border-color: #444; /* Borde gris oscuro para mejor visibilidad */
+}
+
+
+/* Estilo para navar Inventario */
+.dark .dropdown-menu {
+    background-color: black; /* Fondo negro */
+}
+.dark .dropdown-item {
+    color: white; /* Letras blancas */
+}
+.dark .dropdown-item:hover {
+    background-color: #444; /* Color de fondo al pasar el cursor */
+    color: white; /* Mantener letras blancas al pasar el cursor */
+}
+
+
+
+/* Estilos de Cartas Principal */
+
+/* .dark .card {
+    background-color: rgb(4, 24, 27) !important;
+    color: white !important;
+} */
+
+/* Color botones "ver detalles" */
+.dark .btn-light {
+    color: white !important;
+    background-color: rgb(4, 24, 27) !important;
+    border-color: rgb(255, 255, 255) !important;
+}
+
+/* Cambiar el color del botón al pasar el mouse */
+.dark .btn-light:hover {
+    background-color: rgb(16, 13, 218) !important;
+    border-color: rgb(16, 13, 218) !important;
+    color: white !important;
+}
+
+/*  Color del texto dentro de las tarjetas sea blanco */
+.dark .card .card-title,
+.dark .card .card-text {
+    color: white !important;
+}
+
+/* Estilos para el modo oscuro para codigo de paginacion */
+.dark .pagination .page-link {
+    background-color: black;
+    color: white;
+}
+
+.dark .pagination .page-item.active .page-link {
+    background-color: rgb(0, 255, 17);
+    color: rgb(0, 0, 0);
+    border-color: white;
+}
+
+.dark .pagination .page-item.disabled .page-link {
+    background-color: rgb(18, 18, 211);
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+}
