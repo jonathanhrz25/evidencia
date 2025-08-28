@@ -68,12 +68,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             $mail = new PHPMailer(true);
             try {
                 $mail->isSMTP();
-                $mail->Host = 'mail.smtp2go.com';
+                $mail->Host = '****';
                 $mail->SMTPAuth = true;
-                $mail->Username = 'ticket@serva.com.mx';
-                $mail->Password = 'Serva123.*';
+                $mail->Username = '****';
+                $mail->Password = '****';
                 $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-                $mail->Port = 2525;
+                $mail->Port = 0000;
 
                 // Cambiar remitente a nombre del usuario logueado
                 $usuario_nombre = $_SESSION['usuario'];
@@ -121,3 +121,4 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     }
 }
 ?>
+
