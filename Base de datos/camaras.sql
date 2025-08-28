@@ -67,8 +67,7 @@ CREATE TABLE `usuariosc` (
 --
 
 INSERT INTO `usuariosc` (`id`, `usuario`, `password`, `area`, `rol`) VALUES
-(1, 'JonathanC', '$2y$10$Wsy3hBNnLpByTjAquHxdquCAgFc1F206oYJ/f4n5DRTsWvJgm4eoi', 'SISTEMAS', 'Operador'),
-(2, 'Jona', '$2y$10$X8vmFADE18xhfwM47zwGseAciunh5rrx9ZVSKOJrFiNi96Hfm5ism', 'SISTEMAS', 'Operador');
+(1, 'JonathanC', '$2y$10$Wsy3hBNnLpByTjAquHxdquCAgFc1F206oYJ/f4n5DRTsWvJgm4eoi', 'SISTEMAS', 'Operador');
 
 -- --------------------------------------------------------
 
